@@ -1,0 +1,110 @@
+
+
+
+
+Training set size: 583
+Testing set size: 104
+Evaluation metrics:
+
+rag_score_oracle
+  count: 104.0
+  mean: 2.2788461538461537
+  std: 1.0923985435926375
+  min: 0.0
+  25%: 2.0
+  50%: 2.0
+  75%: 3.0
+  max: 5.0
+
+baseline_score_oracle
+  count: 104.0
+  mean: 1.5769230769230769
+  std: 0.7199286330906964
+  min: 0.0
+  25%: 1.0
+  50%: 2.0
+  75%: 2.0
+  max: 3.0
+
+rag_score_cossim
+  count: 104.0
+  mean: 0.807307003015124
+  std: 0.11496657142661468
+  min: 0.4649213810479907
+  25%: 0.7391858971834383
+  50%: 0.8153691197019775
+  75%: 0.8995782848869252
+  max: 0.9904540716820691
+
+baseline_score_cossim
+  count: 104.0
+  mean: 0.7131237502351784
+  std: 0.08624342159060532
+  min: 0.41814847904304453
+  25%: 0.665981464244339
+  50%: 0.7251893005700805
+  75%: 0.7759987045783254
+  max: 0.8652837428537749
+
+rag_score_jaccard_index
+  count: 104.0
+  mean: 0.3439347684115784
+  std: 0.2864827212136989
+  min: 0.0
+  25%: 0.125
+  50%: 0.25
+  75%: 0.5
+  max: 1.0
+
+baseline_score_jaccard_index
+  count: 104.0
+  mean: 0.0464330925798686
+  std: 0.06577743990808861
+  min: 0.0
+  25%: 0.0
+  50%: 0.0
+  75%: 0.08333333333333333
+  max: 0.25
+
+rag_score_fuzzy_jaccard_index
+  count: 104.0
+  mean: 0.6196517024642023
+  std: 0.25381820222594864
+  min: 0.0
+  25%: 0.43721590909090907
+  50%: 0.6236111111111111
+  75%: 0.8008928571428572
+  max: 1.0
+
+baseline_score_fuzzy_jaccard_index
+  count: 104.0
+  mean: 0.28319719810104427
+  std: 0.17554633153534469
+  min: 0.0
+  25%: 0.16666666666666666
+  50%: 0.2799145299145299
+  75%: 0.378525641025641
+  max: 1.0
+
+
+Average scores:
+rag_score_oracle: 2.2788
+baseline_score_oracle: 1.5769
+rag_score_cossim: 0.8073
+baseline_score_cossim: 0.7131
+rag_score_jaccard_index: 0.3439
+baseline_score_jaccard_index: 0.0464
+rag_score_fuzzy_jaccard_index: 0.6197
+baseline_score_fuzzy_jaccard_index: 0.2832
+
+
+
+
+Proportion of RAG scores higher than baseline (oracle):
+0.5384615384615384
+Proporation of RAG scores higher than baseline (cosine similarity):
+0.8557692307692307
+Proportion of RAG scores higher than baseline (jaccard index):
+0.8365384615384616
+Proportion of RAG scores higher than baseline (fuzzy jaccard index):
+0.9134615384615384

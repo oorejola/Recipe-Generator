@@ -1,0 +1,20 @@
+# Compiled python modules
+**/__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS files
+**/.DS_Store
+
+# Python environment
+venv/
+.venv/
+env/
+.env/
+
+# Other files
+.idea/
+*.swp
+*.swo
